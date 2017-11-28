@@ -1,0 +1,22 @@
+{
+    "name": "zk-utils",
+    "version": "1.0.2",
+    "description": "antd 扩展封装",
+    "main": "lib/index.js",
+    "scripts": {
+        "build": "rimraf lib && babel src --out-dir lib"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/zkboys/zk-utils.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/zkboys/zk-utils/issues"
+    },
+    "homepage": "https://github.com/zkboys/zk-utils#readme",
+    "devDependencies": {
+        "babel-cli": "^6.26.0"
+    }
+}
